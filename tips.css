@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+}
+
+header {
+    background-color: #0def6b; /* Green header */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.tip-container {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#purchaseAmount {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#generateTips {
+    background-color: #0def6b;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tips {
+    margin-top: 1em;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #000;
+}
